@@ -7,7 +7,7 @@
 
 #include <sys/socket.h>
 #include <netdb.h>
-#include <Tigre/String/String.h>
+#include <String/String.h>
 
 namespace Tigre {
 
