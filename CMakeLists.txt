@@ -8,3 +8,6 @@ set(TEST_NETWORK main.cpp Socket.cpp Socket.h)
 
 add_executable(NetworkTeste ${TEST_NETWORK})
 add_library(Network ${LIB_NETWORK})
+
+target_link_libraries(NetworkTeste String)
+target_link_libraries(Network String)
