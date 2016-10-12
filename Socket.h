@@ -69,6 +69,7 @@ namespace Tigre {
             void Write(char * data);
             String Read(int size=2048);
             void Read(void *buffer, int size);
+            void Close();
 
         private:
             Socket(int socket);

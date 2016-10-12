@@ -91,3 +91,7 @@ void Socket::Read(void *buffer, int size) {
         throw SocketException("Sem conexão com o Socket.");
     }
 }
+
+void Socket::Close() {
+    close(this->socket_);
+}
